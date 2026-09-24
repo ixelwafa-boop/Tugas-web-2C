@@ -1,0 +1,15 @@
+/* membuat eleme h1 berwarna merah */
+h1 {
+    color: red;
+    font-size: 30px;
+}
+/* untuk h2 warna blue ukuran font 25px */
+h2 {
+    color: blue;
+    font-size: 25px;
+}
+/* untuk elemen p warna hijau ukuran font 20px */
+p {
+    color: rgb(0, 72, 0);
+    font-size: 20px;
+}
