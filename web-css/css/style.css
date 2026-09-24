@@ -1,0 +1,105 @@
+/* untuk body gunkana warana abau-abu ukuran font 15px arial sans sarif */
+body {
+    background-color: rgb(192, 192, 192);
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+/* untuk container gunkana warna putih ukuran dengan width atau lebar 800px dan tinggi 600px dan margin auto */
+.container {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+}
+
+/* mengatur jarak dalam header peding top 20, pedding right 20 dan pading lef 20 */
+.header {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/*specify css elemen*/
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/*mengatur display inline-block agar bisa diberikan dimensi*/
+.nav {
+    padding: 0px;
+}
+ 
+.nav li {
+    /*agar menjadi kesamping tidak kebawah*/
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+/*menghilangkan garis bawah link*/
+.nav li a {
+    text-decoration: none;
+    color: navy;
+}
+ 
+/*ketika navigasi disorot mouse*/
+.nav li a:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+/*untuk css banner*/
+.banner {
+    height: 300px;
+    /*background-color: skyblue;*/
+    /*berikan file gambar*/
+    background-image: url(img/banner.jpg);
+    /*atur ukuran gambar*/
+    background-size: cover;
+    /*mengatur posisi gambar horisontal dan vertikal*/
+    background-position: 0px -150px;
+    /*mengatur garis tepi tebal jenis warna*/
+    border-top: 5px solid navy;
+    border-bottom: 5px solid skyblue;
+}
+
+/*untuk isi*/
+.isi {
+    padding: 20px;
+}
+ 
+.isi h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+ 
+.isi .penulis {
+    font-size: 14px;
+    /*agar agak naik*/
+    margin-top: -10px;
+}
+ 
+.isi .penulis a {
+    text-decoration: none;
+    color: skyblue;
+}
+ 
+.isi p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/*untuk footer*/
+.footer {
+    background-color: navy;
+    height: 50px;
+    padding: 2px;
+}
+ 
+.footer .copyright {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
