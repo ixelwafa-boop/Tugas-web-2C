@@ -55,7 +55,7 @@ body {
     height: 300px;
     /*background-color: skyblue;*/
     /*berikan file gambar*/
-    background-image: url(img/banner.jpg);
+    background-image: url(https://i.pinimg.com/736x/da/05/34/da05346de0d6922070ea70965ff30b00.jpg);
     /*atur ukuran gambar*/
     background-size: cover;
     /*mengatur posisi gambar horisontal dan vertikal*/
@@ -89,6 +89,7 @@ body {
 .isi p {
     font-size: 16px;
     margin-bottom: 10px;
+    text-align: justify;
 }
 
 /*untuk footer*/
