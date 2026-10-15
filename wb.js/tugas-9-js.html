@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 9 JS</title>
+</head>
+<body>
+    <h1>Tugas 9 JavaScript OOP</h1>
+
+    <script type="text/javascript">
+        // membuat blueprint object/class kendaraan
+        function kendaraan(jenis, roda, warna) {
+            this.jenis = jenis;
+            this.roda = roda;
+            this.warna = warna;
+
+            //method atau function
+            this.Maju = function() {
+                document.write("kendaran jenis " + this.jenis + " maju <br>");
+            };
+            this.Mundur = function() {
+                document.write("kendaran jenis " + this.jenis + " mundur <br>");
+            };
+            this.Belok = function() {
+                document.write("kendaran jenis " + this.jenis + " belok <br>");
+            };
+            this.Berhenti = function() {
+                document.write("kendaran jenis " + this.jenis + " berhenti <br>");
+            };
+        }
+
+        //membuat  instance
+
+        let sedan = new kendaraan("sedan", 4, "merah");
+
+        let sepeda_motor = new kendaraan("motor", 2, "hitam");
+
+        //trigger dan tuliskan ke browser
+        document.write("<h2> kendaraan jenis " + sedan.jenis + ".</h2>");
+
+        document.write("jumlah roda " + sedan.roda + "<br>");
+        
+        document.write("warna " + sedan.warna + "<br>");
+
+        //fungsi atau sifat
+        sepeda_motor.Maju();
+        sepeda_motor.Mundur(); 
+        sepeda_motor.Belok();
+        sedan.Maju();
+        sedan.Mundur();
+        sedan.Berhenti();
+
+        
+    
+    </script>
+
+</body>
+</html>

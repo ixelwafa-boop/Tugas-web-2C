@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="judul" onclick="ubahwarna()">ini adalah judul</h1>
+
+    <p id="isi">lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+    
+    <script type="text/javascript">
+       //ambil elem yang mau di manupulasikan
+        let judul = document.getElementById("judul");
+        let isi = document.getElementById("isi");
+
+        //event untuk meruvah warna
+        function ubahwarna() {
+            judul.style.color = 'red';
+            isi.style.color = 'blue';
+        }
+        //dom event
+        judul.addEventListener('click', function() {
+            judul.style.color = 'red';
+            isi.style.color = 'green';
+            this.style.backgroundColor = 'yellow';
+        });
+
+
+    </script>
+        
+</body>
+</html>

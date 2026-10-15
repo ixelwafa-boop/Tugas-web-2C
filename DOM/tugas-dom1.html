@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas DOM</title>
+</head>
+<body>
+    <h2>ini adalah judul</h2>
+
+    <h3>ini adalah sub judul</h3>
+    <p id="isi" lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p> 
+
+    <script type="text/Javascript"></script>
+    //membuat variabel judul
+    let judul = document.getElementsByTagName("h2");
+
+    let subjudul = document.getElementsByTagName("h3");
+
+    //merubah warna teks judul menjadi merah
+    judul[0].style.color = 'red';
+
+    //merubah warna teks subjudul menjadi biru
+    subjudul[0].style.color = 'blue';
+
+</body>
+</html>
